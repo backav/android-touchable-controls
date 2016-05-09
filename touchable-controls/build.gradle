@@ -33,11 +33,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 
 group = "li.xiangyang.android"
-version = "0.1"
+version = "0.2"
 
 def siteUrl = 'https://github.com/backav/android-touchable-controls'    // project homepage
 def gitUrl = 'https://github.com/backav/android-touchable-controls.git' // project git
-def pkgName = 'touchable-controls'
+def pkgName = 'android-touchable-controls'
 def pkgDesc = "Touchable controls for Android"
 
 
