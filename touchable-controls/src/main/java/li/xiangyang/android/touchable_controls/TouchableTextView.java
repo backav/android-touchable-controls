@@ -16,9 +16,9 @@ public class TouchableTextView extends TextView {
         this.setOnTouchListener(new OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction()==MotionEvent.ACTION_DOWN){
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                     TouchableTextView.this.setAlpha(0.5f);
-                }else if (motionEvent.getAction()== MotionEvent.ACTION_UP){
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP || motionEvent.getAction() == MotionEvent.ACTION_CANCEL) {
                     TouchableTextView.this.setAlpha(1.0f);
                 }
                 return false;
